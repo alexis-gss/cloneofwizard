@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="google-site-verification" content="jJNTl2vhVaxxWoxK1Y6HbsGzbOkJw-1KirfGR3ukkyY"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lucas Bordas, Alexis Gousseau">
+    <meta name="robots" content="noindex">
+    <title>Clone of Wizard | Site</title>
+    <link href="https://fonts.googleapis.com/css?family=Carter+One&display=swap" rel="stylesheet">
+    <link rel="icon" href="data/gemme.png">
+    <link rel="stylesheet" href="css/styleWebsite.css">
+</head>
+<body>
+
+    <section class="loader">
+	    <img src="data/gemme.png" alt="Image de chargement."/>
+	    <h2>Chargement ...</h2>
+	</section>
+
+    <section class="sectionFond"></section>
+
+    <section class="sectionAnimation">
+        <div class="set set3">
+            <div><img class="sectionAnimationImage" src="data/terre1.png"></div>
+            <div><img class="sectionAnimationImage" src="data/terre2.png"></div>
+            <div><img class="sectionAnimationImage" src="data/terre3.png"></div>
+            <div><img class="sectionAnimationImage" src="data/terre4.png"></div>
+            <div><img class="sectionAnimationImage" src="data/terre5.png"></div>
+            <div><img class="sectionAnimationImage" src="data/terre6.png"></div>
+            <div><img class="sectionAnimationImage" src="data/terre7.png"></div>
+            <div><img class="sectionAnimationImage" src="data/terre8.png"></div>
+        </div>
+        <div class="set">
+            <div><img class="sectionAnimationImage" src="data/terre8.png"></div>
+            <div><img class="sectionAnimationImage" src="data/terre7.png"></div>
+            <div><img class="sectionAnimationImage" src="data/terre6.png"></div>
+            <div><img class="sectionAnimationImage" src="data/terre5.png"></div>
+            <div><img class="sectionAnimationImage" src="data/terre4.png"></div>
+            <div><img class="sectionAnimationImage" src="data/terre3.png"></div>
+            <div><img class="sectionAnimationImage" src="data/terre2.png"></div>
+            <div><img class="sectionAnimationImage" src="data/terre1.png"></div>
+        </div>
+    </section>
+
+    <section>
+        <nav class="navOrdinateur">
+            <ul class="ulOrdinateur">
+                <li class="liOrdinateur">
+                    <a href="#video">Video Explicative</a>
+                </li>
+                <li class="liOrdinateur">
+                    <a href="#concept">Concept</a>
+                </li>
+                <li class="liOrdinateur">
+                    <a href="#screenshots">Screenshots</a>
+                </li>
+                <li class="liOrdinateur">
+                    <a href="#galerie">Galerie</a>
+                </li>
+                <li class="liOrdinateur">
+                    <a class="btnJouer" href="CloneOfWizardGame.html" target="_blank">JOUER</a>
+                </li>
+            </ul>
+        </nav>
+        <a class="btnMenu">MENU</a>
+        <a class="btnMenuActivated">X</a>
+        <div class="filtre"></div>
+        <nav class="navTelephone">
+            <ul class="ulTelephone">
+                <li class="liTelephone">
+                    <a href="#video">Video Explicative</a>
+                </li>
+                <li class="liTelephone">
+                    <a href="#concept">Concept</a>
+                </li>
+                <li class="liTelephone">
+                    <a href="#screenshots">Screenshots</a>
+                </li>
+                <li class="liTelephone">
+                    <a href="#galerie">Galerie</a>
+                </li>
+                <li class="liTelephone">
+                    <a class="btnJouer" href="CloneOfWizard.html" target="_blank">JOUER</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+    
+    <section class="sectionHeader">
+        <div class="logo"></div>
+        <div class="logo2"></div>
+        <svg class="flèche">
+            <use href="#icon-ctrl"></use>
+        </svg>
+    </section>
+
+    <section class="sectionVideo" id="video">
+        <h2>Vidéo Explicative</h2>
+        <video controls>
+            <source src="data/CloneOfWizard.mp4"/>
+        </video>
+    </section>
+
+    <section class="sectionConcept" id="concept">
+        <h2>Concept</h2>
+        <p>Dans notre jeu, vous incarnez un sorcier, aux pouvoirs spécifiques, perdu dans une mytérieuse forêt ...</p>
+        <p>Au total, il y a plus de 40 niveaux, tous uniques, avec une difficulté progressive. Deux modes de jeu vous seront proposés, 
+            la possibilité de réaliser votre meilleur temps dans le mode normal ou de créer votre propre niveau dans l’éditeur de map pour ensuite le tester.</p>
+        <p>Ce jeu a été réalisé par Lucas Bordas et Alexis Gousseau, travaillant à la fois sur les graphismes et sur le développement.</p>
+    </section>
+
+    <section class="sectionScreenshots" id="screenshots">
+        <h2>Screenshots</h2>
+        <div id="contentContainer">
+            <main class="wrapper">
+                <section class="wrapper__content">
+                </section>
+                <section class="wrapper__content">
+                </section>
+                <section class="wrapper__content">
+                </section>
+                <section class="wrapper__content">
+                </section>
+                <section class="wrapper__content">
+                </section>
+            </main>
+        </div>
+        <div class="navLinks">
+            <ul class="navLinks__ul">
+                <li class="navLinks__itemLinks" data-pos="0px"></li>
+                <li class="navLinks__itemLinks" data-pos="-100%"></li>
+                <li class="navLinks__itemLinks" data-pos="-200%"></li>
+                <li class="navLinks__itemLinks" data-pos="-300%"></li>
+                <li class="navLinks__itemLinks" data-pos="-400%"></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="sectionGalerie" id="galerie">
+        <h2>Galerie de sprites</h2>
+        <img class="imgSprite" src="data/spriteSite.png">
+    </section>
+
+    <section class="sectionAnimation">
+        <div class="set set2">
+            <div><img class="sectionAnimationImage" src="data/terre5.png"></div>
+            <div><img class="sectionAnimationImage" src="data/terre8.png"></div>
+            <div><img class="sectionAnimationImage" src="data/terre4.png"></div>
+            <div><img class="sectionAnimationImage" src="data/terre1.png"></div>
+            <div><img class="sectionAnimationImage" src="data/terre7.png"></div>
+            <div><img class="sectionAnimationImage" src="data/terre3.png"></div>
+            <div><img class="sectionAnimationImage" src="data/terre6.png"></div>
+            <div><img class="sectionAnimationImage" src="data/terre2.png"></div>
+        </div>
+    </section>
+
+    <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <defs>
+            <symbol id="icon-ctrl" viewBox="0 0 32 32">
+            <path d="M23 14c-0.278 0-0.555-0.116-0.753-0.341l-6.247-7.14-6.247 7.14c-0.364 0.416-0.995 0.458-1.411 0.094s-0.458-0.995-0.094-1.411l7-8c0.19-0.217 0.464-0.341 0.753-0.341s0.563 0.125 0.753 0.341l7 8c0.364 0.416 0.322 1.047-0.094 1.411-0.19 0.166-0.424 0.247-0.658 0.247z"></path>
+            </symbol>
+        </defs>
+    </svg>
+        
+    <script src="js/website.js" async></script>
+</body>
+</html>

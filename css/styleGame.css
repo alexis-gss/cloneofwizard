@@ -1,0 +1,100 @@
+html, body{
+    height: 90%;
+    font-family: 'Carter One', cursive;
+    color: #ccc;
+}
+body{
+    background: #1D1D1D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100%;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+canvas{
+    display: block;
+}
+.displayNone{
+    display: none;
+}
+a{
+    cursor: pointer;
+}
+.btnStart, .btnEditor, .btnMenu, .modeFacile, .temps, .tempsGemme, .tempsFlame{
+    position: absolute;
+    border: none;
+    color: #3056AA;
+    background-color: white;
+    font-weight: 400;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btnStart{
+    transform: translate(-5rem, 13rem);
+}
+.btnEditor{
+    transform: translate(5rem, 13rem);
+}
+.btnMenu{
+    color: white;
+    background: none;
+    transform: translate(-23.7rem, -13.6rem);
+}
+.btnMenu:hover{
+    color: #3056AA;
+    background-color: white;
+}
+.modeFacile{
+    color: white;
+    background: none;
+    transform: translate(-11.5rem, -13.6rem);
+}
+.modeFacile:hover{
+    color: #3056AA;
+    background-color: white;
+}
+.temps{
+    color: white;
+    background: none;
+    transform: translate(0, 4rem);
+}
+.tempsGemme{
+    color: white;
+    background: none;
+    transform: translate(7rem, -13.6rem)
+}
+.tempsFlame{
+    color: white;
+    background: none;
+    transform: translate(0rem, -13.6rem);
+}
+.indicateurVie, .indicateurLvl, .indicateurLvldesc{
+    position: absolute;
+    transform: translate(25rem, -13.6rem);
+}
+.indicateurVie{
+    transform: translate(15rem, -13.6rem);
+}
+.indicateurLvldesc{
+    transform: translate(21.5rem, -13.6rem);
+}
+.volumeOn, .volumeOff{
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    stroke: none;
+    fill: white;
+    transform: translate(-18.5rem, -13.6rem);
+    cursor: pointer;
+}

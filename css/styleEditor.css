@@ -1,0 +1,71 @@
+html, body{
+    height: 90%;
+    font-family: 'Carter One', cursive;
+    color: #ccc;
+    font-weight: 400;
+    font-size: 16px;
+}
+body{
+    background: #1D1D1D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    height: 100%;
+}
+canvas{
+    display: block;
+    background: url("../data/fondentier.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.contentSelectionneur{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+.menu{
+    position: relative;
+}
+.selecteur{
+    width: 64px;
+    height: 64px;
+    border: solid 4px red;
+    position: absolute;
+    top: -4px;
+    left: -4px;
+}
+.resTable{
+    margin: 2rem;
+    height: 40px;
+    width: 500px;
+    /* LIGNE À ENLEVER POUR CRÉER DES NOUVEAUX NIVEAUX */
+    display: none;
+}
+.btns{
+    width: 1344px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1rem 0;
+}
+.btnMenu, .btnTester, .btnDelEditedMap{
+    border: none;
+    color: #3056AA;
+    background-color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
